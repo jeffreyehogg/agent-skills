@@ -13,9 +13,11 @@ This repository adopts the **Tiered Multi-Agent Pattern**:
 
 ## Skills Inventory
 
-| Skill | Description | Target Models |
+| Skill | Description | Target Role |
 | :--- | :--- | :--- |
 | [`code-audit-orchestrator`](./code-audit-orchestrator/SKILL.md) | Autonomous multi-specialist audit and optimization framework covering Performance, Security, and Architecture. | Orchestrator: Frontier<br>Scouts: Flash/Haiku |
+| [`spec-driven-feature`](./spec-driven-feature/SKILL.md) | Plan-before-code gating protocol. Drafts `SPEC.md` with explicit data contracts and affected file boundaries before modifying code. | Lead Architect / Senior Engineer |
+| [`git-worktree-isolator`](./git-worktree-isolator/SKILL.md) | Safely runs multi-file agent refactors and background tasks in isolated Git worktrees without touching your active branch. | Agent Runner / Sandbox Manager |
 
 ---
 
@@ -28,7 +30,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-This symlinks all skills into your global Antigravity config directory (`~/.gemini/config/skills/`). Any edits made in this repository are immediately reflected in Antigravity.
+This symlinks all skills into your global Antigravity config directory (`~/.gemini/config/skills/`). Any edits made in this repository are immediately reflected in Antigravity across all your projects.
 
 To remove the symlinks:
 ```bash
