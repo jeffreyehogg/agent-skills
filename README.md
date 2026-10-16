@@ -15,7 +15,7 @@ This repository adopts the **Tiered Multi-Agent Pattern**:
 
 | Skill | Description | Target Role |
 | :--- | :--- | :--- |
-| [`code-audit-orchestrator`](./code-audit-orchestrator/SKILL.md) | Autonomous multi-specialist audit and optimization framework covering Performance, Security, and Architecture. | Orchestrator: Frontier<br>Scouts: Flash/Haiku |
+| [`code-audit-orchestrator`](./code-audit-orchestrator/SKILL.md) | Autonomous multi-specialist audit and optimization framework covering Performance, Security, Architecture, and conditional UI/Frontend Craft. | Orchestrator: Frontier<br>Scouts: Flash/Haiku |
 | [`spec-driven-feature`](./spec-driven-feature/SKILL.md) | Plan-before-code gating protocol. Drafts `SPEC.md` with explicit data contracts and affected file boundaries before modifying code. | Lead Architect / Senior Engineer |
 | [`git-worktree-isolator`](./git-worktree-isolator/SKILL.md) | Safely runs multi-file agent refactors and background tasks in isolated Git worktrees without touching your active branch. | Agent Runner / Sandbox Manager |
 

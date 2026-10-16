@@ -59,3 +59,11 @@ export interface NewFeaturePayload {
   - Empty or malformed inputs.
   - Network failure / timeout handling.
   - Authorization / permission denial.
+
+---
+
+## 6. Spec Amendments (Delta Log)
+*(Populate only if mid-flight constraints require amending Sections 2 or 3 during Phase 4)*
+
+| Timestamp | Trigger / Blocker | Amended Section & Delta | Approved By |
+| :--- | :--- | :--- | :--- |
